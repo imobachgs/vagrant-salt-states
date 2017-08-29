@@ -1,0 +1,4 @@
+---
+install: --no-rdoc --no-ri --user-install --no-format-executable
+update: --no-rdoc --no-ri --user-install --no-format-executable
+
