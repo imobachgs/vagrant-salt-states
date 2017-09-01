@@ -6,6 +6,9 @@ ruby_packages:
       - ruby{{ ruby.version }}
       - ruby{{ ruby.version }}-rubygem-bundler
       - ruby{{ ruby.version }}-devel
+      - gcc
+      - gcc-c++
+      - make
 
 gemrc:
   file.managed:
