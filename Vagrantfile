@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   # Basic configuration
   #
   config.vm.box = 'opensuse/openSUSE-42.3-x86_64'
-  config.vm.network 'forwarded_port', guest: 3000, host: 3000
+  config.vm.network 'forwarded_port', guest: 3000, host: 3000, guest_ip: 'localhost'
 
   #
   # Synced folders
